@@ -1,0 +1,23 @@
+{
+  "name": "witness-failover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel src --out-dir dist && node dist/index.js",
+    "test_sms": "babel src --out-dir dist && node dist/test_sms.js"
+  },
+  "author": "therealwolf42",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "dotenv": "^5.0.0",
+    "dsteem": "^0.8.7",
+    "request": "^2.83.0",
+    "steem": "^0.7.1",
+    "superagent": "^3.8.2"
+  }
+}
