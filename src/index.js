@@ -109,7 +109,6 @@ let check_missing_variables = async () => {
     console.log(`Exiting process - check_missing_variables wasn't sucessful`)
     process.exit(-1)
   }
-  
 }
 
 let update_witness = async (key, retries = 0) => {
@@ -166,7 +165,6 @@ let get_witness_by_account = async (retries = 0) => {
       if(failover) await get_witness_by_account(0)
     }
   }
-  
 }
 
 let rpc_failover = () => {
@@ -197,5 +195,4 @@ const enums = {
   DISABLED: 'DISABLED'
 }
 
-//setInterval(start, config.INTERVAL * 60 * 1000)
 start()
