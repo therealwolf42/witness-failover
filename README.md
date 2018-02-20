@@ -53,7 +53,7 @@ The `INTERVAL` - how often it should check for missed blocks - is in minutes. An
     ""
    ],
   "MISSED_BLOCKS_THRESHOLD":2,
-  "INTERVAL":30,
+  "INTERVAL":20,
   "USE_SMS_ALERT":"ENABLED",
   "SEND_AFTER_EVERY_MISSED":"ENABLED"
 }
