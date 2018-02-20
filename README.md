@@ -36,7 +36,7 @@ npm i
 cp config.example.json config.json
 ```
 
-The `INTERVAL` - how often it should check for missed blocks - is in minutes. And this depends on how often you produce a block. I'm in the top 50 and produce one block roughly every hour. That's why I used 30 minutes. But for a TOP 20 Witness, this number has to be a lot lower.
+The `INTERVAL` - how often it should check for missed blocks - is in minutes. And this depends on how often you produce a block. I'm in the top 50 and produce one block roughly every hour. That's why I used 20 minutes. But for a TOP 20 Witness, this number has to be a lot lower.
 
 ```
 {
