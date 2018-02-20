@@ -1,5 +1,3 @@
-import { error } from 'util';
-
 const fs = require('fs')
 const request = require('superagent')
 const dotenv = require('dotenv').config()
