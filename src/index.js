@@ -2,7 +2,6 @@ const fs = require('fs')
 const request = require('superagent')
 const dotenv = require('dotenv').config()
 
-const steem = require('steem')
 const dsteem = require('dsteem')
 
 let config = JSON.parse(fs.readFileSync('config.json'))
