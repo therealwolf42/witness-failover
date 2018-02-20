@@ -1,12 +1,16 @@
 {
   "name": "witness-failover",
   "version": "1.0.0",
-  "description": "",
+  "description": "STEEM Witness Failover incl. SMS-Alerts via NEXMO",
   "main": "index.js",
   "scripts": {
     "start": "babel src --out-dir dist && node dist/index.js",
     "test_sms": "babel src --out-dir dist && node dist/test_sms.js",
     "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealwolf42/witness-failover.git"
   },
   "author": "therealwolf42",
   "license": "MIT",
@@ -18,5 +22,9 @@
     "dotenv": "^5.0.0",
     "dsteem": "^0.8.7",
     "superagent": "^3.8.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/therealwolf42/witness-failover/issues"
+  },
+  "homepage": "https://github.com/therealwolf42/witness-failover#readme"
 }
