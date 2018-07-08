@@ -1,4 +1,4 @@
-# STEEM Witness Failover incl. SMS-Alerts via NEXMO
+# (DEPRECATED) STEEM Witness Failover incl. SMS-Alerts via NEXMO
 
 This script has three main tasks:
 
